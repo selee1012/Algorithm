@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main{
 
+    // 범위가 0~9까지의 수로 범위가 적은 정수이기 때문에 계수정렬 활용
     public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
     	
