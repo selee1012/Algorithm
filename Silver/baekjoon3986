@@ -14,7 +14,7 @@ public class Main{
     	for (int i=0; i<n; i++) {
     		input = scanner.nextLine();
     		Stack<Character> check = new Stack<>();
-    		
+
     		for (int j=0; j<input.length(); j++) {
     			if (check.isEmpty() || input.charAt(j) != check.peek()) {
     				check.push(input.charAt(j));
